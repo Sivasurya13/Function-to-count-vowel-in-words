@@ -1,0 +1,23 @@
+# Function to count vowel
+def vowel_count(str):
+  
+  # Initializing count variable to 0
+  count = 0
+  
+  # Creating a set of vowels
+  vowel = set("aeiouAEIOU")
+  
+  
+  for alphabet in str:
+  
+    
+    if alphabet in vowel:
+      count = count + 1
+  
+  print("No. of vowels :", count)
+  
+#string of words to count
+str = "sivasurya"
+
+
+vowel_count(str)
